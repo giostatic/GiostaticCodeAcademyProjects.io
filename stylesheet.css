@@ -1,6 +1,29 @@
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap);
+
 @font-face{
     font-family: 'Abril Fatface', cursive;
     font-family: 'Merriweather', serif;
     font-family: 'Work Sans', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap');
+    src: url('') for
+}
+
+header{
+    background-color: lightgray;
+}
+
+#logo{
+    text-align: left;
+    margin: 0;
+    padding: 10px 50px 10px 0px;
+    font-family: 'Merriweather', 'Work Sans', serif;
+}
+
+#navbar ul {
+    list-style-type: none;
+}
+
+#navbar li {
+    display: inline-block;
+    text-align: right;
+    padding: 40px;
 }
