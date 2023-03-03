@@ -26,6 +26,7 @@
 #navbar ul {
   display: inline-block;
   list-style-type: none;
+  width: 100%;
 }
 
 
@@ -43,8 +44,7 @@
 }
 
 #basics h1{
-  top: 100px;
-  z-index: 2;
+
 }
 
 
