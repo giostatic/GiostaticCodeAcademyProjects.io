@@ -1,48 +1,41 @@
 @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap);
 
-@font-face{
-    font-family: 'Abril Fatface', cursive;
-    font-family: 'Merriweather', serif;
-    font-family: 'Work Sans', sans-serif;
-    src: url('') for
+@font-face {
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Merriweather', serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
-header{
-    background-color: lightgray;
-}
-h1{
-    display: inline;
-}
-
-#logo{
-    text-align: left;
-    margin: 0;
-    padding: 10px 50px 10px 0px;
-    font-family: 'Merriweather', 'Work Sans', serif;
-}
+/* navigation bar */
 
 #navbar{
-    display: flex;
-    top: 10px;
+  background-color: aqua;
+  font-family: 'Merriweather', serif, 'Work Sans';
+  position: absolute;
+	width: 99%;
+  max-width: 100%;
+}
+
+#navbar h1 {
+  display: inline;
+  font-family: 'Work Sans', serif, 'Work Sans';
 }
 
 #navbar ul {
-    list-style-type: none;
+  display: inline;
+  list-style-type: none;
 }
+
 
 #navbar li {
-    display: inline-block;
-    text-align: right;
+  display: inline;  
+  padding-left: 75px;
+  text-align: right;
+}
 
-}
+
+/*
     padding: 40px;
-#nav-bar{
-  display: flex;
-  top: 10px;
-  bottom: 0;
-  position: fixed;
-  z-index: -1;
-}
 
 #header-img{
   display: flex;
@@ -76,4 +69,4 @@ h1{
   margin-right: 1vw;
   padding-right: 5px;
   list-style: none;
-}
+} */
