@@ -13,27 +13,38 @@
 #navbar{
   background-color: aqua;
   font-family: 'Merriweather', serif, 'Work Sans';
-  position: absolute;
+  position: fixed;
 	width: 100%;
   max-width: 100%;
 }
 
 #navbar h1 {
-  display: inline;
+  display: inline-block;
   font-family: 'Merriweather', serif, 'Work Sans';
 }
 
 #navbar ul {
-  display: inline;
+  display: inline-block;
   list-style-type: none;
 }
 
 
 #navbar li {
-  display: inline;
+  display: inline-block;
   position: relative;  
-  padding-left: 100px;
-  text-align: right;
+  padding-left: 50px;
+  text-align: right;;
+}
+
+/* basics section */
+
+#basics{
+  padding: 100px 0px;
+}
+
+#basics h1{
+  top: 100px;
+  z-index: 2;
 }
 
 
