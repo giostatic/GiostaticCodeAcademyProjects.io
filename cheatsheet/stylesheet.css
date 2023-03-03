@@ -14,7 +14,7 @@
   background-color: aqua;
   font-family: 'Merriweather', serif, 'Work Sans';
   position: absolute;
-	width: 99%;
+	width: 100%;
   max-width: 100%;
 }
 
@@ -30,8 +30,9 @@
 
 
 #navbar li {
-  display: inline;  
-  padding-left: 75px;
+  display: inline;
+  position: relative;  
+  padding-left: 100px;
   text-align: right;
 }
 
