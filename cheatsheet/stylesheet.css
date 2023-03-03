@@ -18,11 +18,18 @@
  h1{
   font-family: 'Merriweather', serif, 'Work Sans';
  }
+
+ .links{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: -0.06em;
+ }
 /* navigation bar */
 
 #logo {
   float: left;
   text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #navbar{
@@ -32,6 +39,8 @@
 	width: 100%;
   max-width: 100%;
   text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -45,7 +54,7 @@
 #navbar li {
   display: inline;
   position: relative;  
-  padding-left: 20px;
+  margin: 0 10px;
 }
 
 /* basics section */
