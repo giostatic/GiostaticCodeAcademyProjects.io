@@ -1,5 +1,10 @@
 @import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Work+Sans:wght@400;500;800&display=swap);
 
+*{
+  border: 0;
+  padding: 0;
+  margin: 0;
+  }
 /*
 @font-face {
   font-family: 'Abril Fatface', cursive;
@@ -8,43 +13,49 @@
   imported font names
 }
  */
+
+
+ h1{
+  font-family: 'Merriweather', serif, 'Work Sans';
+ }
 /* navigation bar */
+
+#logo {
+  float: left;
+  text-align: left;
+}
 
 #navbar{
   background-color: aqua;
   font-family: 'Merriweather', serif, 'Work Sans';
-  position: fixed;
+  position: relative;
 	width: 100%;
   max-width: 100%;
+  text-align: right;
 }
 
-#navbar h1 {
-  display: inline-block;
-  font-family: 'Merriweather', serif, 'Work Sans';
-}
+
 
 #navbar ul {
-  display: inline-block;
+  display: inline;
   list-style-type: none;
-  width: 100%;
 }
 
 
 #navbar li {
-  display: inline-block;
+  display: inline;
   position: relative;  
-  padding-left: 50px;
-  text-align: right;;
+  padding-left: 20px;
 }
 
 /* basics section */
 
 #basics{
-  padding: 100px 0px;
+  background-color: cornflowerblue;
 }
 
 #basics h1{
-
+  text-align: center;
 }
 
 
