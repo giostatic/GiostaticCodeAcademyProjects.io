@@ -4,22 +4,33 @@ let currentRoundNumber = 1;
 
 // Write your code below:
 
-//Function will be called at the start of a new round in order to generate the new secret target number
-const generateTarget = x => {
-    let x = (Math.floor(Math.random()*9))
+//step 1
+const generateTarget = ( ) => {
+    return (Math.floor(Math.random()*9));
 }
 
-/*function will be called each round to determine which guess is closest to the target number created
-in the previous step */
+//step 2
 const compareGuesses = (human, computer, secret) =>{
-    let secret = x;
-    if (computer === secret){
-        return false;
-    };
-    if (computer === secret && human === secret) {
-        return true;
-    };
-    if (human === secret) {
-        return true;
+    const userGuess = Math.abs(secret - human);
+    const computerGuess = Math.abs(secret - computer);
+    return userGuess <= computerGuess
+       /*if (userG <= computerG) {
+        updateScore('human');
+    } else {
+        updateScore('computer');
+    }*/
+}
+//step 3
+const updateScore = winner => {
+    if (winner === 'human'){
+        return humanScore += 1;
     }
+    else if (winner === 'computer') {
+       return computerScore += 1;
+    }
+}
+
+//step 4
+const advanceRound = () => {
+    currentRoundNumber += 1;
 }
